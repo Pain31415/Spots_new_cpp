@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Domain">
+      <UniqueIdentifier>{7cc88344-b2bd-4435-a54b-42982966bfb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Entity">
+      <UniqueIdentifier>{bed3f49c-78cd-465a-99ef-b53427ae3fb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{cb558908-d912-4862-8b09-a9a872d4251c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\DataSours">
+      <UniqueIdentifier>{251f8526-af41-4e7c-9d3e-913762f7b13e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\DataSours\Local">
+      <UniqueIdentifier>{47f1ed4c-fb90-4cac-9ec7-664c1b6035e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Presentation">
+      <UniqueIdentifier>{1b0a93a2-7055-425f-bf70-de4529823c59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Presentation\Screens">
+      <UniqueIdentifier>{7c918c21-4dd5-47a5-8788-7be399030f93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Presentation\Function">
+      <UniqueIdentifier>{2887f65c-63f2-4bfd-8a17-8478d796888e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utils.h">
+      <Filter>Data\DataSours\Local</Filter>
+    </ClInclude>
+    <ClInclude Include="PuzzleGame.h">
+      <Filter>Presentation</Filter>
+    </ClInclude>
+    <ClInclude Include="PuzzleFunctions.h">
+      <Filter>Presentation\Function</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PuzzleGame.cpp">
+      <Filter>Presentation</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Presentation\Screens</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
